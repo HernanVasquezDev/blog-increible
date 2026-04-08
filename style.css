@@ -107,15 +107,15 @@ footer a {
 
 .characters-section {
     margin-top: 30px;
-    border-top: 2px solid #708250; /* Usando el verde oliva que elegimos */
+    border-top: 2px solid #708250; 
     padding-top: 20px;
 }
 
 .extra-article img {
     width: 100%; /* Para que la imagen ocupe todo el ancho del contenedor */
-    max-width: 400px; /* Para que no se vea gigante en pantallas grandes */
+    max-width: 400px; 
     height: auto;
-    border-radius: 8px; /* Bordes redondeados para que se vea más moderno */
+    border-radius: 8px; 
     display: block;
     margin: 10px auto;
 }
@@ -123,12 +123,12 @@ footer a {
 figcaption {
     text-align: center;
     font-style: italic;
-    color: #555;
+    color: #ffd6d6;
     margin-bottom: 15px;
 }
 
 .extra-article h4 {
-    color: #708250; /* Títulos en verde oliva para combinar */
+    color: #ff0000; 
     font-size: 1.4rem;
     margin-bottom: 10px;
 }
