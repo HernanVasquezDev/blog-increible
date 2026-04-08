@@ -61,7 +61,6 @@ main {
     margin: 15px 0;
 }
 
-/* SIDEBAR */
 .extra-container {
     margin-top: 40px;
     display: flex;
@@ -102,4 +101,39 @@ footer ul {
 footer a {
     color: #ffcc00;
     text-decoration: none;
+}
+
+.SocialMedias ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.SocialMedias a {
+    color: #eaeaea;
+    display: inline-flex;
+    transition: 0.3s;
+}
+
+.SocialMedias svg {
+    width: 30px;
+    height: 30px;
+}
+
+.SocialMedias a:hover{
+    color: #ffcc00;
+    transform: scale(1.2);
+}
+
+.mapa{
+    background: #141414;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mapa iframe {
+   border-radius: 10px;
+   margin-top: 10px;
+   border: 2px solid yellow 
 }
