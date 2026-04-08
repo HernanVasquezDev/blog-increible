@@ -209,32 +209,38 @@ footer a {
     color: #ffcc00;
     text-decoration: none;
 }
-/* --- Estilos para la sección de Personajes --- */
 
-.characters-section {
-    margin-top: 30px;
-    border-top: 2px solid #708250; 
-    padding-top: 20px;
+.SocialMedias ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-.extra-article img {
-    width: 100%; /* Para que la imagen ocupe todo el ancho del contenedor */
-    max-width: 400px; 
-    height: auto;
-    border-radius: 8px; 
-    display: block;
-    margin: 10px auto;
+.SocialMedias a {
+    color: #eaeaea;
+    display: inline-flex;
+    transition: 0.3s;
 }
 
-figcaption {
-    text-align: center;
-    font-style: italic;
-    color: #ffd6d6;
-    margin-bottom: 15px;
+.SocialMedias svg {
+    width: 30px;
+    height: 30px;
 }
 
-.extra-article h4 {
-    color: #ff0000; 
-    font-size: 1.4rem;
-    margin-bottom: 10px;
+.SocialMedias a:hover{
+    color: #ffcc00;
+    transform: scale(1.2);
+}
+
+.mapa{
+    background: #141414;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mapa iframe {
+   border-radius: 10px;
+   margin-top: 10px;
+   border: 2px solid yellow 
 }
