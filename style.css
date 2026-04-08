@@ -46,35 +46,35 @@ main {
 }
 
 .movies-container {
-    padding: 20px;
+  padding: 20px;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .card {
-    background: #1c1c1c;
-    color: white;
-    border-radius: 15px;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s;
+  background: #1c1c1c;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .card img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card h3 {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .extra-container {
@@ -97,7 +97,11 @@ main {
 }
 
 .about-hero {
-  background: linear-gradient(135deg, rgba(179,0,0,0.92), rgba(22,22,22,0.96));
+  background: linear-gradient(
+    135deg,
+    rgba(179, 0, 0, 0.92),
+    rgba(22, 22, 22, 0.96)
+  );
   padding: 45px 30px;
   border-radius: 18px;
   margin-bottom: 30px;
@@ -172,7 +176,9 @@ main {
   border-radius: 16px;
   padding: 24px;
   border: 1px solid rgba(255, 204, 0, 0.14);
-  transition: transform 0.25s ease, background 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
 }
 
 .team-card:hover {
@@ -206,41 +212,95 @@ footer ul {
 }
 
 footer a {
-    color: #ffcc00;
-    text-decoration: none;
+  color: #ffcc00;
+  text-decoration: none;
 }
 
 .SocialMedias ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .SocialMedias a {
-    color: #eaeaea;
-    display: inline-flex;
-    transition: 0.3s;
+  color: #eaeaea;
+  display: inline-flex;
+  transition: 0.3s;
 }
 
 .SocialMedias svg {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
-.SocialMedias a:hover{
-    color: #ffcc00;
-    transform: scale(1.2);
+.SocialMedias a:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
 }
 
-.mapa{
-    background: #141414;
-    padding: 20px;
-    border-radius: 10px;
+.mapa {
+  background: #141414;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .mapa iframe {
-   border-radius: 10px;
-   margin-top: 10px;
-   border: 2px solid yellow 
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid yellow;
+}
+
+.who {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.AboutUs {
+  background: #f5f7fa;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.AboutUs h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.AboutUs p {
+  color: #555;
+}
+
+.authorsSection {
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.authorsSection h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.authorsSection ul {
+  list-style: none;
+}
+
+.authorsSection li {
+  background: #f0f0f0;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.3s;
+  color: #0d0d0d;
+}
+
+.authorsSection li:hover {
+  background: #242424;
+  cursor: pointer;
+  color: #ffffff;
 }
