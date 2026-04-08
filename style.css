@@ -216,6 +216,11 @@ footer a {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
 .SocialMedias ul {
   list-style: none;
   display: flex;
