@@ -319,7 +319,7 @@ footer a {
 }
 
 .extra-article img {
-    width: 100%; /* Para que la imagen ocupe todo el ancho del contenedor */
+    width: 100%; 
     max-width: 400px; 
     height: auto;
     border-radius: 8px; 
